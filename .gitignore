@@ -1,0 +1,33 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+
+# Logs
+logs/
+*.log
+
+# Misc
+.cache/
+.temp/
+# Arduino & OpenMV
+*.pyc
+*.pyo
+__pycache__/
+venv/
+.openmv/
+build-*/
+*.elf
+*.hex

@@ -1,0 +1,67 @@
+{
+	"mode": "normal",
+	"debug": {
+		"test_duration": 30,
+		"test_all_profiles": true,
+		"test_profile": "vga"
+	},
+	"calibration": {
+		"tag_size_m": 0.2,
+		"distance_m": [1.0],
+		"samples_per_distance": 50
+	},
+	"active_profile": "vga",
+	"profiles": {
+		"qqvga": {
+			"resolution": "QQVGA",
+			"x_res": 160,
+			"y_res": 120,
+			"focal_length_x": 225,
+			"focal_length_y": 225,
+			"fast_scale": 1.0,
+			"thorough_scale": 0.5,
+			"stride": 6,
+			"threshold": 100
+		},
+		"qvga": {
+			"resolution": "QVGA",
+			"x_res": 320,
+			"y_res": 240,
+			"focal_length_x": 450,
+			"focal_length_y": 450,
+			"fast_scale": 0.5,
+			"thorough_scale": 0.25,
+			"stride": 6,
+			"threshold": 100
+		},
+		"vga": {
+			"resolution": "VGA",
+			"x_res": 640,
+			"y_res": 480,
+			"focal_length_x": 900,
+			"focal_length_y": 900,
+			"fast_scale": 0.25,
+			"thorough_scale": 0.125,
+			"stride": 6,
+			"threshold": 100
+		}
+	},
+	"apriltag": {
+		"family": "TAG36H11",
+		"tag_size": 0.2,
+		"refine": 0
+	},
+	"wifi": {
+		"ssid": "ssid",
+		"password": "password",
+		"udp_ip": "00.000.00.000",
+		"udp_port": 2390
+	},
+	"performance": {
+		"gc_interval_ms": 1000,
+		"print_interval_frames": 10,
+		"status_interval_frames": 30,
+		"loop_delay_ms": 20,
+		"consecutive_detections_threshold": 5
+	}
+}

@@ -1,0 +1,7 @@
+# No external dependencies required
+# Python standard library only (socket, csv, argparse, datetime)
+
+# Optional: For data analysis (used in examples)
+# numpy>=1.21.0
+# pandas>=1.3.0
+# matplotlib>=3.3.0
