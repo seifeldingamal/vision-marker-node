@@ -3,7 +3,7 @@
 A collection of optimized marker detection systems for embedded hardware, providing real-time 3D pose estimation with UDP transmission for robotics and computer vision applications.
 
 
-> This project was supported and initiated by Windreiter to enable autonoumus indoor airships using just cameras and simple geo location tags. [www.windreiter.de](www.windreiter.de) 
+> This project was supported and initiated by Windreiter to enable autonoumus indoor airships using just cameras and simple geo location tags. [www.windreiter.de](https://www.windreiter.com/) 
 
 ## Overview
 
