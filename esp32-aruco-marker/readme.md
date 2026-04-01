@@ -38,7 +38,7 @@ Real-time ArUco marker detection and 3D pose estimation on ESP32-CAM with OV2640
     -   Search for "esp32" and install "esp32 by Espressif Systems"
 
 3.  **Install ArUcoLite Library:**
-    -   Download from: https://github.com/cyberreefguru/ArucoLite
+    -   Download from: https://github.com/pmarques-dev/ArucoLite
     -   Extract to your Arduino `libraries` folder
     -   Or use `Sketch > Include Library > Add .ZIP Library`
 
@@ -285,13 +285,13 @@ esp32-aruco-marker/
 
 -   **ESP32 Board Support** (by Espressif Systems)
 -   **ArUcoLite** - Lightweight ArUco detection library
-    -   GitHub: https://github.com/cyberreefguru/ArucoLite
+    -   GitHub: https://github.com/pmarques-dev/ArucoLite
     -   Must be installed manually to the Arduino IDE
 
 ## References
 
 -   [ArUco Documentation](https://docs.opencv.org/4.x/d5/dae/tutorial_aruco_detection.html)
--   [ArUcoLite Library](https://github.com/cyberreefguru/ArucoLite)
+-   [ArUcoLite Library](https://github.com/pmarques-dev/ArucoLite)
 -   [ESP32-CAM Pinout](https://randomnerdtutorials.com/esp32-cam-ai-thinker-pinout/)
 -   [ESP32 Arduino Core](https://github.com/espressif/arduino-esp32)
 -   [Camera Calibration Theory](https://docs.opencv.org/4.x/dc/dbb/tutorial_py_calibration.html)
